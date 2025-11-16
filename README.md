@@ -38,11 +38,14 @@ Two suggested approaches — choose one:
 ## 📁 Example Folder Structure
 /spotify-clone
 │── public/
-│ └── assets/ # images, sample audio previews
+│   └── assets/               # images, sample audio previews
+│
 │── src/
-│ ├── index.html # static version or React root
-│ ├── style.css # main styles
-│ ├── app.js # player logic (or src/App.jsx for React)
-│ └── data/tracks.json # sample tracks (title, artist, audioUrl, img)
+│   ├── index.html            # static version OR React root
+│   ├── style.css             # main stylesheet
+│   ├── app.js                # player logic (or App.jsx for React)
+│   └── data/
+│       └── tracks.json       # track list (title, artist, audioUrl, img)
+│
 └── README.md
 
