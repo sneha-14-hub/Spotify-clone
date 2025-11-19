@@ -49,6 +49,6 @@ Two suggested approaches — choose one:
 │
 └── README.md
 
-homepage.png
+
 
 
